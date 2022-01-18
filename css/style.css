@@ -1,0 +1,298 @@
+:root {
+    --accent-color: #2196f3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header section */
+
+.header {
+    background: #ffffff;
+}
+
+.header-item {
+}
+
+.header-item-mail-tel {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-item-mail-tel:hover,
+.header-item-mail-tel:focus {
+    color: var(--accent-color);
+}
+
+/* navigation section */
+
+.navigation {
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196f3;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-footer {
+    color: #ffffff;
+}
+
+.navigation-list {
+}
+
+.navigation-item {
+}
+
+.navigation-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link:active {
+    color: var(--accent-color);
+}
+
+/* hero section */
+
+.hero {
+    text-align: center;
+    background: #2f303a;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero-btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background: #2196f3;
+}
+
+.title-btn:hover,
+.title-btn:focus {
+    color: var(--accent-color);
+}
+
+/* about section */
+
+.about {
+    background-color: #ffffff;
+}
+
+.about-list {
+    text-align: center;
+}
+
+.about-item {
+}
+
+.about-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.about-after-title {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* --- work-section --- */
+
+.work-section {
+}
+.work-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-list {
+    text-align: center;
+}
+
+/* --- personal-section --- */
+
+.personal {
+    background-color: #ffffff;
+}
+
+.personal-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.personal-list {
+    text-align: center;
+}
+
+.personal-section-item {
+}
+
+.personal-title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.personal-after-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* --- footer-section --- */
+
+.address {
+    font-style: normal;
+}
+
+.footer-section {
+    background: #2f303a;
+}
+
+.footer-link {
+}
+
+.footer-item {
+}
+
+.footer-map {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.footer-item-mail-tel {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* --- menu-section 2 stor --- */
+
+.btn-list {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.btn-list:active {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #2196f3;
+}
+
+.btn-list:hover,
+.btn-list:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.menu-section-list {
+}
+
+.menu-section {
+}
+
+.menu-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.menu-after-title {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
