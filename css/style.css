@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --accent-color: #2196f3;
 }
@@ -23,13 +27,25 @@ body {
     list-style: none;
 }
 
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /* header section */
 
 .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
     background: #ffffff;
 }
 
 .header-item {
+}
+
+.header-list {
 }
 
 .header-item-mail-tel {
@@ -92,6 +108,8 @@ body {
 /* hero section */
 
 .hero {
+    padding-top: 200px;
+    padding-bottom: 280px;
     text-align: center;
     background: #2f303a;
 }
@@ -104,6 +122,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -128,10 +147,13 @@ body {
 /* about section */
 
 .about {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: #ffffff;
 }
 
 .about-list {
+    display: flex;
     text-align: center;
 }
 
@@ -144,6 +166,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .about-after-title {
@@ -156,6 +179,8 @@ body {
 /* --- work-section --- */
 
 .work-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .work-title {
     font-size: 36px;
@@ -163,15 +188,19 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .work-list {
+    display: flex;
     text-align: center;
 }
 
 /* --- personal-section --- */
 
 .personal {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: #ffffff;
 }
 
@@ -181,9 +210,11 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .personal-list {
+    display: flex;
     text-align: center;
 }
 
@@ -197,6 +228,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .personal-after-title {
@@ -214,6 +247,8 @@ body {
 }
 
 .footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #2f303a;
 }
 
@@ -230,6 +265,8 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 
 .footer-item-mail-tel {
@@ -239,6 +276,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 
 /* --- menu-section 2 stor --- */
@@ -270,6 +308,12 @@ body {
     background-color: #2196f3;
 }
 
+.menu-btn-list {
+    display: inline-flex;
+    margin-top: 94px;
+    margin-bottom: 34px;
+}
+
 .btn-list:hover,
 .btn-list:focus {
     color: #ffffff;
@@ -280,6 +324,17 @@ body {
 }
 
 .menu-section {
+    display: inline-block;
+    margin-top: 34px;
+    margin-bottom: 94px;
+    text-align: center;
+}
+
+.menu-section:hover,
+.menu-section:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .menu-title {
@@ -288,6 +343,8 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .menu-after-title {
