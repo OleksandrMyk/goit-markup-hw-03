@@ -42,6 +42,8 @@ body {
 
 .hero-title {
     display: flex;
+    flex-flow: column-reverse;
+    text-align: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 200px 452px 200px 452px;
@@ -142,8 +144,8 @@ body {
 /* hero section */
 
 .hero {
-    text-align: center;
     background: #2f303a;
+    display: flex;
 }
 
 .hero-container {
@@ -151,6 +153,7 @@ body {
 }
 
 .title {
+    display: flex;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -159,6 +162,9 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 30px;
+    position: absolute;
+    width: 696px;
+    height: 120px;
 }
 
 .hero-btn {
@@ -178,9 +184,10 @@ body {
     border-radius: 4px;
 }
 
-.title-btn:hover,
-.title-btn:focus {
-    color: var(--accent-color);
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+    background-color: var(--accent-color);
 }
 
 /* about section */
