@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -129,6 +131,11 @@ body {
 
 .navigation-list {
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .navigation-item {
@@ -395,6 +402,7 @@ body {
 
 .menu-btn-list {
     display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -457,8 +465,9 @@ body {
 }
 
 .menu-title-item {
-    padding: 20px 24px 20px 24px;
-    border-left: 24px;
-    border-right: 24px;
-    border-bottom: 20px;
+    padding: 20px 24px;
+    background-color: #ffffff;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
