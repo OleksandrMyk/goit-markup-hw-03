@@ -154,6 +154,10 @@ body {
     color: #000000;
 }
 
+.navigation-item > .current {
+    color: var(--accent-color);
+}
+
 .navigation-item + .navigation-item {
     margin-left: 50px;
 }
