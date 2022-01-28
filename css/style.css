@@ -168,7 +168,10 @@ body {
 }
 
 .navigation-link:hover,
-.navigation-link:focus,
+.navigation-link:focus {
+    color: var(--accent-color);
+}
+
 .navigation-link:active {
     color: var(--accent-color);
 }
